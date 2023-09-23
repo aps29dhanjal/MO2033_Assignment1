@@ -1,0 +1,25 @@
+using System;
+
+namespace MO2033_Assignment1
+{
+    class Program
+    {
+        static void Main(string[] args)
+        {
+           while (true)
+            {
+                Console.WriteLine("Enter your favourite color");
+                Console.WriteLine("Enter stop to exit");
+                String color = Console.ReadLine();
+                
+                if(color == "stop")
+                {
+                    break;
+                }
+                Console.WriteLine("Your favorite color is " + color);
+            }
+          
+           
+        }
+    }
+}
